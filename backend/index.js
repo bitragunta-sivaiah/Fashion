@@ -35,6 +35,7 @@ app.use('/api/wishlist',wishListRouter)
 app.use('/api/address',addressRouter)
 app.use('/api/order',orderRouter)
 app.use('/api/payment',paymentRouter);
+
 app.get('/',(req,res)=>{
     res.send('API is running');
 })
